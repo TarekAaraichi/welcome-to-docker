@@ -21,3 +21,7 @@ EXPOSE 3000
 
 # Start the app using serve command
 CMD [ "serve", "-s", "build" ]
+
+# You can build an image using the following docker build command via a CLI in your project folder.
+# docker build -t welcome-to-docker .
+# The -t flag tags your image with a name. (welcome-to-docker in this case). And the . lets Docker know where it can find the Dockerfile.
